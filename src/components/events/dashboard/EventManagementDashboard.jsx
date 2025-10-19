@@ -5,7 +5,7 @@ import {
   HiHome,
   HiUsers,
   HiCheckCircle,
-  HiPalette,
+  HiColorSwatch,
   HiCog,
   HiTruck,
   HiCurrencyDollar,
@@ -37,7 +37,7 @@ import {
   HiNewspaper,
   HiPhotograph,
   HiBadgeCheck,
-  HiTrophy,
+  HiStar,
   HiCog as HiCogIcon,
   HiDatabase,
   HiExclamationTriangle,
@@ -80,11 +80,11 @@ function EventManagementDashboard() {
     },
     {
       category: 'Artes & Certificados',
-      icon: <HiPalette className="w-5 h-5" />,
+      icon: <HiColorSwatch className="w-5 h-5" />,
       items: [
         { id: 'artes-instagram', name: 'Artes Instagram', icon: <HiPhotograph className="w-4 h-4" /> },
         { id: 'artes-certificados', name: 'Certificados', icon: <HiBadgeCheck className="w-4 h-4" /> },
-        { id: 'artes-placas', name: 'Placa Ouro', icon: <HiTrophy className="w-4 h-4" /> }
+        { id: 'artes-placas', name: 'Placa Ouro', icon: <HiStar className="w-4 h-4" /> }
       ]
     },
     {

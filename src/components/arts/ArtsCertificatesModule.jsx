@@ -1,9 +1,9 @@
 import React, { useState, useEffect } from 'react';
 import {
-  HiPalette,
+  HiColorSwatch,
   HiCamera,
   HiDocumentText,
-  HiTrophy,
+  HiStar,
   HiPlus,
   HiSearch,
   HiFilter,
@@ -12,7 +12,6 @@ import {
   HiTrash,
   HiDownload,
   HiTemplate,
-  HiColorSwatch,
   HiPhotograph,
   HiBadgeCheck,
   HiCog,
@@ -153,7 +152,7 @@ function ArtsCertificatesModule() {
   const tabs = [
     { id: 'instagram', label: 'Artes Instagram', icon: <HiCamera className="w-5 h-5" />, count: artesInstagram.length },
     { id: 'certificados', label: 'Certificados', icon: <HiBadgeCheck className="w-5 h-5" />, count: certificados.length },
-    { id: 'placas', label: 'Placas Ouro', icon: <HiTrophy className="w-5 h-5" />, count: placasOuro.length }
+    { id: 'placas', label: 'Placas Ouro', icon: <HiStar className="w-5 h-5" />, count: placasOuro.length }
   ];
 
   const renderTabContent = () => {

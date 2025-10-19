@@ -12,9 +12,9 @@ import {
   HiClock,
   HiCheckCircle,
   HiPackage,
-  HiArchiveBox,
+  HiArchive,
   HiPaperAirplane,
-  HiMapPin,
+  HiLocationMarker,
   HiQrcode,
   HiPrinter,
   HiArrowRight,
@@ -228,7 +228,7 @@ function ShippingModule() {
   const statusColumns = [
     { status: 'preparacao', title: 'Preparação', icon: <HiClipboardList className="w-5 h-5" />, color: 'yellow' },
     { status: 'producao', title: 'Produção', icon: <HiCog className="w-5 h-5" />, color: 'blue' },
-    { status: 'embalado', title: 'Embalado', icon: <HiArchiveBox className="w-5 h-5" />, color: 'purple' },
+    { status: 'embalado', title: 'Embalado', icon: <HiArchive className="w-5 h-5" />, color: 'purple' },
     { status: 'enviado', title: 'Enviado', icon: <HiPaperAirplane className="w-5 h-5" />, color: 'orange' },
     { status: 'entrega', title: 'Entrega', icon: <HiCheckCircle className="w-5 h-5" />, color: 'green' }
   ];

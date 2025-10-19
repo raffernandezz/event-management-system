@@ -8,12 +8,12 @@ import {
   HiCheckCircle,
   HiXCircle,
   HiDownload,
-  HiUserPlus,
+  HiUserAdd,
   HiX,
   HiCheck,
-  HiMapPin,
+  HiLocationMarker,
   HiCreditCard,
-  HiTrophy
+  HiStar
 } from 'react-icons/hi';
 
 function InscriptionsModule() {
@@ -351,7 +351,7 @@ function InscriptionsModule() {
         </div>
         <div className="flex items-center space-x-3">
           <button className="flex items-center space-x-2 px-4 py-2 bg-dark-800 hover:bg-dark-700 border border-dark-700 rounded-lg text-gray-300 hover:text-white transition-colors">
-            <HiUserPlus className="w-4 h-4" />
+            <HiUserAdd className="w-4 h-4" />
             <span>Nova Inscrição</span>
           </button>
           <button className="flex items-center space-x-2 px-6 py-3 bg-gradient-to-r from-primary-500 to-primary-600 hover:from-primary-600 hover:to-primary-700 text-black font-semibold rounded-lg shadow-lg transition-all duration-200">
@@ -407,7 +407,7 @@ function InscriptionsModule() {
               <p className="text-gray-400 text-sm">Total de Inscrições</p>
               <p className="text-3xl font-bold text-white">{inscriptions.length}</p>
             </div>
-            <HiUserPlus className="w-8 h-8 text-primary-400" />
+            <HiUserAdd className="w-8 h-8 text-primary-400" />
           </div>
         </div>
 
@@ -540,7 +540,7 @@ function InscriptionsModule() {
 
         {filteredInscriptions.length === 0 && (
           <div className="text-center py-12">
-            <HiUserPlus className="mx-auto h-12 w-12 text-gray-400" />
+            <HiUserAdd className="mx-auto h-12 w-12 text-gray-400" />
             <h3 className="mt-2 text-sm font-medium text-gray-400">Nenhuma inscrição encontrada</h3>
             <p className="mt-1 text-sm text-gray-500">
               {searchTerm || statusFilter ? 'Tente ajustar os filtros.' : 'As inscrições aparecerão aqui.'}
@@ -601,7 +601,7 @@ function InscriptionsModule() {
               {/* Parte 1: Dados Pessoais */}
               <div className="bg-dark-800 rounded-lg p-6">
                 <div className="flex items-center space-x-2 mb-4">
-                  <HiUserPlus className="w-5 h-5 text-primary-400" />
+                  <HiUserAdd className="w-5 h-5 text-primary-400" />
                   <h4 className="text-lg font-medium text-white">Dados Pessoais</h4>
                 </div>
 
@@ -678,7 +678,7 @@ function InscriptionsModule() {
               {/* Parte 2: Endereço */}
               <div className="bg-dark-800 rounded-lg p-6">
                 <div className="flex items-center space-x-2 mb-4">
-                  <HiMapPin className="w-5 h-5 text-primary-400" />
+                  <HiLocationMarker className="w-5 h-5 text-primary-400" />
                   <h4 className="text-lg font-medium text-white">Endereço</h4>
                 </div>
 
@@ -813,7 +813,7 @@ function InscriptionsModule() {
               <div className="bg-dark-800 rounded-lg p-6">
                 <div className="flex items-center justify-between mb-4">
                   <div className="flex items-center space-x-2">
-                    <HiTrophy className="w-5 h-5 text-primary-400" />
+                    <HiStar className="w-5 h-5 text-primary-400" />
                     <h4 className="text-lg font-medium text-white">Dados do Prêmio</h4>
                   </div>
                   <button

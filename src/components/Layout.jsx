@@ -6,7 +6,7 @@ import {
   HiHome,
   HiUsers,
   HiCheckCircle,
-  HiPalette,
+  HiColorSwatch,
   HiCog,
   HiTruck,
   HiCurrencyDollar,
@@ -62,7 +62,7 @@ const menuItems = [
   },
   {
     text: 'Artes & Certificados',
-    icon: <HiPalette className="w-5 h-5" />,
+    icon: <HiColorSwatch className="w-5 h-5" />,
     path: '/artes',
     category: 'design',
     subItems: [
